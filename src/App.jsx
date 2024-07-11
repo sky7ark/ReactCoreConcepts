@@ -9,6 +9,11 @@ function App() {
       <Todo task="Explore concepts" isDone={true}></Todo>
       <Todo task="Try JSX" isDone={false}></Todo>
       <Todo task="Try JSX" isDone={false}></Todo>
+      <Todo task="Try JSX" isDone={false}></Todo>
+      <Todo task="Try JSX" isDone={false}></Todo>
+      <Todo task="Try JSX" isDone={false}></Todo>
+      <Todo task="Try JSX" isDone={false}></Todo>
+      <Todo task="Try JSX" isDone={false}></Todo>
     </>
   );
 }
