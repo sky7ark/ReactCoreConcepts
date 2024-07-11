@@ -8,9 +8,9 @@ export default function Todo({ task, isDone }) {
   //   } else {
   //     return <li>Work on: {task}</li>;
   //   }
-
-  if (isDone) {
-    return <li>Finish: {task}</li>;
-  }
-  return <li>working on: {task}</li>;
+  //   if (isDone) {
+  //     return <li>Finish: {task}</li>;
+  //   }
+  //   return <li>working on: {task}</li>;
+  isDone === true ? <li>Finish: {task}</li> : <li>on going: {task}</li>;
 }
