@@ -12,5 +12,5 @@ export default function Todo({ task, isDone }) {
   //     return <li>Finish: {task}</li>;
   //   }
   //   return <li>working on: {task}</li>;
-  isDone === true ? <li>Finish: {task}</li> : <li>on going: {task}</li>;
+  return isDone === true ? <li>Finish: {task}</li> : <li>going: {task}</li>;
 }
