@@ -3,6 +3,9 @@ import Todo from "./todo";
 import Actor from "./Actor";
 import Singer from "./Singer";
 function App() {
+  const handleclick = (num) => {
+    alert(num + 5);
+  };
   const actors = ["Sakib", "raj", "Jasim", "rubel", "shah"];
   const singers = [
     { name: "mahfuz", age: 12 },
@@ -23,6 +26,7 @@ function App() {
       <Todo task="Learn React" isDone={true}></Todo>
       <Todo task="Explore concepts" isDone={true}></Todo>
       <Todo task="Try JSX" isDone={false}></Todo>
+      <button onClick={() => handleclick(4)}>click me</button>
     </>
   );
 }
