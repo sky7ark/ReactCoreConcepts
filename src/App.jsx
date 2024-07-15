@@ -26,6 +26,8 @@ function App() {
       <Todo task="Learn React" isDone={true}></Todo>
       <Todo task="Explore concepts" isDone={true}></Todo>
       <Todo task="Try JSX" isDone={false}></Todo>
+      <Todo task="Try JSX" isDone={false}></Todo>
+      <Todo task="Try JSX" isDone={false}></Todo>
       <button onClick={() => handleclick(4)}>click me</button>
     </>
   );
