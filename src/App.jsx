@@ -8,9 +8,9 @@ function App() {
   };
   const actors = ["Sakib", "raj", "Jasim", "rubel", "shah"];
   const singers = [
-    { name: "mahfuz", age: 12 },
-    { name: "pritom", age: 15 },
-    { name: "eva", age: 14 },
+    { id: 1, name: "mahfuz", age: 12 },
+    { id: 2, name: "pritom", age: 15 },
+    { id: 3, name: "eva", age: 14 },
   ];
   return (
     <>
@@ -25,6 +25,11 @@ function App() {
       ))}
       <Todo task="Learn React" isDone={true}></Todo>
       <Todo task="Explore concepts" isDone={true}></Todo>
+      <Todo task="Try JSX" isDone={false}></Todo>
+      <Todo task="Try JSX" isDone={false}></Todo>
+      <Todo task="Try JSX" isDone={false}></Todo>
+      <Todo task="Try JSX" isDone={false}></Todo>
+      <Todo task="Try JSX" isDone={false}></Todo>
       <Todo task="Try JSX" isDone={false}></Todo>
       <Todo task="Try JSX" isDone={false}></Todo>
       <Todo task="Try JSX" isDone={false}></Todo>
