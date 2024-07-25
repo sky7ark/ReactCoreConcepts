@@ -35,6 +35,9 @@ function App() {
       <Todo task="Try JSX" isDone={false}></Todo>
       <Todo task="Try JSX" isDone={false}></Todo>
       <Todo task="Try JSX" isDone={false}></Todo>
+      <Todo task="Try JSX" isDone={false}></Todo>
+      <Todo task="Try JSX" isDone={false}></Todo>
+      <Todo task="Try JSX" isDone={false}></Todo>
       <button onClick={() => handleclick(4)}>click me</button>
     </>
   );
